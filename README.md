@@ -51,7 +51,7 @@ you want to store all configuration data. __THIS MUST BE AN ABSOLUTE PATH!!!!__
 
 ```shell
 $ cd hassio-compose
-$ echo "SUPERVISOR_SHARE=/home/$USER/hassio-config" > .env
+$ echo "SUPERVISOR_SHARE=/home/hassio/hassio-config" > .env
 ```
 
 4. Start Hass.io using `docker-compose`:
