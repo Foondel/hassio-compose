@@ -3,7 +3,7 @@ version: '3'
 services:
 
   hassio:
-    image: homeassistant/amd64-hassio-supervisor
+    image: homeassistant/amd64-hassio-supervisor:latest
     container_name: hassio_supervisor
     privileged: true
     entrypoint: ["/bin/bash", "-c", "/scripts/start_hassio.sh"]
